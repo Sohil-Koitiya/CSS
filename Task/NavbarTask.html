@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar In HTML</title>
+
+    <!-- Font Awesome CDN Link id  Start Here -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+    integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome CDN Link id  End Here -->
+
+    <!-- Internal CSS Start Here -->
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid white;
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .navbar{
+            width: 95%;
+            margin: auto;
+            font-weight: bold;
+            color: dimgrey;
+        }
+        .display{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .col-50 {
+            width: 50%;
+            display: flex;
+        }
+        div[class*="box"]{
+            height: 50px;
+            padding: 5px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .box-2{
+            width: 15%;
+            font-size: 20px;
+            
+        }
+        .box-3{
+            width: 15%;
+            font-size: 20px;
+        }
+        .box-4{
+            width: 15%;
+            font-size: 20px;
+        }
+        .box-5{
+            width: 15%;
+            font-size: 14px;
+        }
+        .box-6{
+            width: 15%;
+            font-size: 20px;
+        }
+        .box-7{
+            width: 15%;
+            font-size: 15px;
+        }
+        .box-8{
+            width: 70%;
+        }
+        .box-9{
+            width: 10%;
+        }
+        .box-10{
+            width: 10%;
+        }
+        .box-11{
+            width: 10%;
+        }
+        .search{
+            height: 32px;
+            width: 435px;
+            text-align: center;
+        }
+        
+    </style>
+
+    <!-- Internal CSS End Here -->
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="display">
+            <div class="col-50">
+                <div class="box-1"><img src="../Images/myntra.png" alt="Logo" height="40px" width="50px"></div>
+                <div class="box-2">Men</div>
+                <div class="box-3">Women</div>
+                <div class="box-4">Kids</div>
+                <div class="box-5">Home & Living</div>
+                <div class="box-6">Beauty</div>
+                <div class="box-7">Studio <sup>New</sup> </div>
+            </div>
+            <div class="col-50">
+                <div class="box-8"><input type="search" class="search" placeholder="Search for product,brands and more"></div>
+                <div class="box-9"><i class="fa-regular fa-user"></i>Profile</div>
+                <div class="box-10"><i class="fa-regular fa-heart"></i>Wishlist</div>
+                <div class="box-11"><i class="fa-solid fa-bag-shopping"></i><br> Bag</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
