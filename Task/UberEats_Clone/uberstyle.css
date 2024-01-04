@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 *{
-     margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -47,6 +47,7 @@ img{
     width: 110px;
     margin: 13px;
     box-shadow: 0 8px 6px -6px black;
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
@@ -74,7 +75,7 @@ a{
     src: url('../Task/images/eee1724e2e5a8ebd.woff2') format('woff2');
 }
 .mainbox{
-    background-image: url('../../CSS/Images/Fast\ Food.jpeg');
+    background-image: url('../../Images/Fast\ Food.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -92,7 +93,7 @@ a{
 .l1
 {
     font-size: 52px;
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -110,7 +111,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-    width: 40%;
+    width: 50%;
     gap: 5px;
 }
 .l2ba{
@@ -127,19 +128,19 @@ a{
     background: none;
     position: relative;
     left: 25px;
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-size: 16px;   
 }
 .jello{
-        position: relative;
-        left: 15px;
+    position: relative;
+    left: 15px;
 }
 .select{
     height: 56px;
     background:none;
     border: none;
     width: 80%;
-    font-family: 'myfont';
+    font-family: sans-serif;
     position: relative;
     left: 20px;
     font-size: 16px;
@@ -160,8 +161,9 @@ a{
     left: 15px;
 }
 .l2c{
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 .bodybox{
     margin-top: 80px;
@@ -179,16 +181,16 @@ a{
 }
 .imgbox{
     height: 260px;
-    width: 450px;
+    width: 415px;
 } 
 .pa{
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-size: 26px;
     font-weight: bold;
     margin: 5px;
 }   
 .pb{
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
 }   
@@ -271,7 +273,7 @@ li{
     margin: 30px 50px;
     position: relative;
     right: 80px;
-    font-family: 'myfont';
+    font-family: sans-serif;
  }
  .bo2a{
     position: relative;
@@ -287,14 +289,14 @@ li{
 }
 .logoo{
     width: 135px;
-    height: 26px;
+    height: 60px;
 }
 .footbox2{
     width: 80%;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
-    font-family: 'myfont';
+    font-family: sans-serif;
     font-size: 15px;
     gap: 15px;
 }
