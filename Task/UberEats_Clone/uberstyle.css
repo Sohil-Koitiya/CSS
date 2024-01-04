@@ -1,0 +1,337 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: sticky;
+    top: 0;
+}   
+.head{
+    width: 100%;
+    height: 75px;
+    display: flex;  
+    justify-content: space-between;
+
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+img{
+    height: 100%;
+}
+.login{
+    margin: 13px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    border-radius: 44px;
+    box-shadow: 2px 2px 2px 2px rgb(170, 169, 169);
+    box-shadow: 2px 2px 2px 2px #EDEDED;     
+}
+ .signup{
+    border-radius: 44px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin: 13px;
+    box-shadow: 0 8px 6px -6px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.a2{
+    text-decoration: none;
+    color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.bar{
+    height: 18px;
+    width: 20px;
+    margin-left: 40px;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url('../Task/images/eee1724e2e5a8ebd.woff2') format('woff2');
+}
+.mainbox{
+    background-image: url('../../CSS/Images/Fast\ Food.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1500px;
+}
+.orderbox{
+    display: flex;
+    margin: 80px 40px;
+    flex-direction: column;
+    width: 60%;
+    height: 300px;
+    position: relative;
+    top: 100px; 
+}
+.l1
+{
+    font-size: 52px;
+    font-family: 'myfont';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.l2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.l2a{
+    width: 60%;
+    background-color: white;
+}
+.l2b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 40%;
+    gap: 5px;
+}
+.l2ba{
+    width: 55%;
+    background-color: white;
+}
+.l2bb{
+    width: 40%;
+}
+.input1{
+    height: 56px;
+    width: 80%;
+    border: none;
+    background: none;
+    position: relative;
+    left: 25px;
+    font-family: 'myfont';
+    font-size: 16px;   
+}
+.jello{
+        position: relative;
+        left: 15px;
+}
+.select{
+    height: 56px;
+    background:none;
+    border: none;
+    width: 80%;
+    font-family: 'myfont';
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+}
+.but1{
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    font-family: 'myfont';
+    font-size: 18px;
+    color: white;
+    position: relative;
+    right: 10px;
+    border-radius: 10px;
+}
+.yello{
+    position: relative;
+    left: 15px;
+}
+.l2c{
+    font-family: 'myfont';
+    font-size: 15px;
+}
+.bodybox{
+    margin-top: 80px;
+}
+.cardbox{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.imgbox{
+    height: 260px;
+    width: 450px;
+} 
+.pa{
+    font-family: 'myfont';
+    font-size: 26px;
+    font-weight: bold;
+    margin: 5px;
+}   
+.pb{
+    font-family: 'myfont';
+    font-size: 16px;
+    font-weight: bold;
+}   
+.mapbox{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-family: 'myfont';
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.i3a{
+    position: relative;
+    left: 45px;
+}
+.ii3a{
+    position: relative;
+    left: 25px;
+}
+.iii3a{
+    position: relative;
+    right: 50px;
+}
+.line2{
+    width: 95%;
+    margin: 10px auto;
+}
+iframe{
+    width: 100%;
+}
+.line3{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    margin-bottom: 20px;
+}
+.hr1{
+    width: 80%;
+    margin: 0 auto;
+}
+#footer{
+    width: 100%;
+    display: flex;
+}
+.bo1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px 50px;
+    position: relative;
+    left: 80px;
+}
+.bo1a{
+    position: relative;
+    bottom: 45px;
+}
+.bo1b{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    gap: 20px;
+}
+.bo2{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 50px;
+    position: relative;
+    right: 80px;
+    font-family: 'myfont';
+ }
+ .bo2a{
+    position: relative;
+    right: 80px;
+ }
+.goog{
+    width: 160px;
+    height: 40px;
+}
+.apple{
+    width: 135px;
+    height: 40px;
+}
+.logoo{
+    width: 135px;
+    height: 26px;
+}
+.footbox2{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'myfont';
+    font-size: 15px;
+    gap: 15px;
+}
+.liny1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liny1a{
+    display: flex;
+    width: 20%;
+}
+.liny1b{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+.liny2{
+    display: flex;
+    justify-content: end;
+}
+.liny2a{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.insti{
+    position: relative;
+    left: 40px;
+}
+.twity{
+    position: relative;
+    left: 20px;
+}
+.lasty{
+    position: relative;
+    left: 35px;
+}
