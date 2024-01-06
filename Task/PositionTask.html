@@ -3,56 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Position</title>
+    <title>Position Task</title>
+
+    <!-- Internal Css Start Here -->
+
     <style>
-        .container{
-            border: 1px solid black;
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        div[class*="box"]{
+        .box{
             border: 1px solid black;
+            width: 95%;
+            height: 610px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(56, 116, 172, 0.548);
+            color: aliceblue;  
+            position: relative;
         }
         .box-1{
+            border: 1px solid black;
             height: 50px;
-            width: 200px;
+            width: 40%;
+            margin: 60px 380px;
             text-align: center;
-            margin: 10px;
+            background-color: rgba(78, 167, 66, 0.788);
         }
         .box-2{
-            height: 80px;
-            width: 800px;
+            border: 1px solid black;
+            height: 100px;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            margin: 60px 125px;
+            background-color: rgba(192, 173, 89, 0.747);
             text-align: center;
-            margin: 10px;
         }
         .box-3{
-            height: 80px;
-            width: 800px;
-            text-align: center;
-            margin: 10px;
-            background: url("../Images/Bag\ Wallet\ &\ Belt.webp");
+            height: 150px;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin: 100px 95px;
+            position: relative;
         }
-        .box-4{
-            height: 80px;
-            width: 800px;
-            text-align: center;
-            margin: 10px;
-            background: url("../Images/Bag\ Wallet\ &\ Belt.webp");
+        .box-3a{
+            border: 1px solid black;
+            height: 200px;
+            width: 40%;
+            background: url("../Images/Home\ Decor.webp");
+            background-size: cover;
+            margin-right: 80px;
+        }
+        .box-3b{
+            border: 1px solid black;
+            height: 150px;
+            width: 30%;
+            z-index: 1;
+            background: url("../Images/Taj.jpg");
+            background-size: cover;
+            position: absolute;
+            top: 1px;
+            bottom: 8px;
+            left: 360px;
+        }
+        .box-3c{
+            border: 1px solid black;
+            height: 200px;
+            width: 40%;
+            background: url("../Images/Cooking.jpg");
+            background-size: cover;
+            margin-left: 80px;
+        }
+        .box-4a{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: chocolate;
+        }
+        .box-4b{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: chocolate;
+        }
+        .box-4c{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            background-color: chocolate;
+        }
+        .box-4d{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: chocolate;
         }
     </style>
+
+    <!-- Internal Css End Here -->
+
 </head>
 <body>
-    <div class="container">
-        <div class="box-1">Hello</div>
-        <div class="box-2">
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Laborum esse quisquam, molestias quibusdam quis asperiores 
-                deleniti, placeat ipsa minima atque hic similique? Vero quo 
-                dolores amet provident ipsa earum. Voluptatum.
-            </p>
+    <div class="box">
+        <div class="box-1"> <strong>Hello</strong> </div>
+        <div class="box-2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia vel optio dolor reiciendis reprehenderit laborum possimus dignissimos tempore delectus harum non, 
+            aperiam saepe rerum ipsam ducimus? Asperiores et consequatur consequuntur?</b></div>
+        <div class="box-3">
+            <div class="box-3a"></div>
+            <div class="box-3b"></div>
+            <div class="box-3c"></div>
         </div>
-        <div class="box-3">box-3</div>
-        <div class="box-4">box-4</div>
-        <div class="box-5">box-5</div>
+        <div class="box-4">
+            <div class="box-4a"></div>
+            <div class="box-4b"></div>
+            <div class="box-4c"></div>
+            <div class="box-4d"></div>
+        </div>
     </div>
 </body>
 </html>
