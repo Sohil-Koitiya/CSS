@@ -19,12 +19,12 @@
             border: 1px solid rgba(247, 234, 234, 0);
             height: 500px;
             width: 95%;
-            margin: 20px auto;
+            margin: 20px;
             background-color: #ffffff;
             font-family: sans-serif;
         }
         .navbar{
-            height: 80px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -41,11 +41,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 20px;
             list-style: none;
         }
         li{
-            margin: 0px 80px;
+            margin: 0px 60px;
         }
         a{
             text-decoration: none;
@@ -79,7 +78,7 @@
         .text-1{
             height: 500px;
             /* border: 1px solid black; */
-            margin-left: 300px;
+            margin-left: 150px;
         }
         .text-2{
             background-size: cover;
@@ -95,7 +94,7 @@
             justify-content: center;
         }
         .card{
-            width: 1445px;
+            width: 100%;
             height: 477px;
             display: flex;
             align-items: center;
@@ -105,27 +104,85 @@
             font-weight: 700;
             font-family: sans-serif;
             text-align: center;
-            margin-left: 200px;
         }
         .cardimage{
             height: 180px;
-            width: 220px;
+            width: 150px;
         }
         .body-2{
             display: flex;
-            gap: 0px 50px;
         }
         .body2image{
-            height: 1000px;
-            width: 100%;
+            height: 670px;
+            width: 500px;
+            margin-left: 50px;
         }
-        .body2text{
-            height: 1000px;
-        }
+        /* .body2text{
+            height: 700px;
+            width: 500px;
+        } */
         .para{
-            margin-top: 100px;
+            margin-top: 60px;
             text-decoration: underline;
         }
+        .cardpara{
+            font-size: 21px;
+            width: 400px;
+            height: 130px;
+        }
+        .body3text{
+            text-align: center;
+        }
+        .body3para{
+            font-size: 21px;
+            color: #000000;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 250px;
+            gap: 10px;
+        }
+        .menucard1{
+            /* height: 250px;
+            width: 450px; */
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            background-color: #ffffff;
+            width: 1445px;
+            height: 781px;
+        }
+        .menuimage{
+            height: 250px;
+            width: 200px;
+        }
+        .menubutton{
+            height: 30px;
+            width: 120px;
+            font-size: 14px;
+            color: #000000;
+            font-weight: 700;
+            text-align: center;
+        }
+        .menuheading{
+            font-size: 33px;
+            color: #010101;
+            margin-bottom: 20px;
+        }
+        .menuparagraph{
+            width: 215px;
+            height: 93px;
+            font-size: 12px;
+            color: #000000;
+        }
+        .menutext{
+            margin: auto;
+        }
+        
     </style>
 
     <!-- Internal CSS End Here -->
@@ -178,17 +235,17 @@
                 <div class="card1">
                         <img src="../StationaryTemplate/Card 2 Image.png" class="cardimage" alt="">
                         <h3>Duis aute</h3>
-                        <p>sint occaecat cupidatat non</p>
+                        <p class="cardpara">sint occaecat cupidatat non</p>
                 </div>
                 <div class="card2">
                         <img src="../StationaryTemplate/Card 3 Image.png" class="cardimage" alt="">
                         <h3>Duis aute</h3>
-                        <p>sint occaecat cupidatat non</p>
+                        <p class="cardpara">sint occaecat cupidatat non</p>
                 </div>
                 <div class="card3">
                         <img src="../StationaryTemplate/Card 1 Image.png" class="cardimage" alt="">
                         <h3>Duis aute</h3>
-                        <p>sint occaecat cupidatat non</p>
+                        <p class="cardpara">sint occaecat cupidatat non</p>
                     
                 </div>
             </div>
@@ -210,6 +267,103 @@
                 </p>
                 <p class="para">Read Story</p>
             </div>
+        </div>
+
+        <div class="body-3">
+
+            <div class="body3text">
+                <h1>Menu</h1>
+                <p class="body3para">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
+                    fusce ut placerat orci nulla pellentesque dignissim enim sit.
+                </p>
+            </div>
+            <div class="menu">
+
+                <div class="menucard1">
+                    <div class="col-50">
+                        <img src="../StationaryTemplate/menucardimage1.png" class="menuimage" alt="">
+                    </div>
+                    <div class="col-50 menutext">
+                        <h3 class="menuheading">Americano</h3>
+                        <p class="menuparagraph">volutpat lacus laoreet non<br>
+                            curabitur. Ullamcorper dignissim<br>
+                            cras tincidunt lobortis feugiat<br>
+                            vivamus at augue eget. Suscipit<br>
+                            adipiscing bibendum est ultricies 
+                        </p>
+                        <button class="menubutton">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menucard1">
+                    <div class="col-50">
+                        <img src="../StationaryTemplate/menucardimage2.png" class="menuimage" alt="">
+                    </div>
+                    <div class="col-50 menutext">
+                        <h3 class="menuheading">Long Black</h3>
+                        <p class="menuparagraph">volutpat lacus laoreet non<br>
+                            curabitur. Ullamcorper dignissim<br>
+                            cras tincidunt lobortis feugiat<br>
+                            vivamus at augue eget. Suscipit<br>
+                            adipiscing bibendum est ultricies 
+                        </p>
+                        <button class="menubutton">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menucard1">
+                    <div class="col-50">
+                        <img src="../StationaryTemplate/menucardimage3.png" class="menuimage" alt="">
+                    </div>
+                    <div class="col-50 menutext">
+                        <h3 class="menuheading">Cappuccino</h3>
+                        <p class="menuparagraph">volutpat lacus laoreet non<br>
+                            curabitur. Ullamcorper dignissim<br>
+                            cras tincidunt lobortis feugiat<br>
+                            vivamus at augue eget. Suscipit<br>
+                            adipiscing bibendum est ultricies 
+                        </p>
+                        <button class="menubutton">Order Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="body-4">
+
+                <div class="body3text">
+                    <h1>Store</h1>
+                    <p class="body3para">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
+                        fusce ut placerat orci nulla pellentesque dignissim enim sit.
+                    </p>
+                </div>
+
+                <div class="store">
+
+                    <div class="menucard1">
+                        <div class="col-50">
+                            <img src="../StationaryTemplate/menucardimage1.png" class="menuimage" alt="">
+                        </div>
+                        <div class="col-50 menutext">
+                            <h3 class="menuheading">Americano</h3>
+                            <p class="menuparagraph">volutpat lacus laoreet non<br>
+                                curabitur. Ullamcorper dignissim<br>
+                                cras tincidunt lobortis feugiat<br>
+                                vivamus at augue eget. Suscipit<br>
+                                adipiscing bibendum est ultricies 
+                            </p>
+                            <button class="menubutton">Order Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+           
+        </div>
+
+            
+
         </div>
 
     </div>
