@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Task</title>
+
+    <!-- CSS START Here -->
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 630px;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .box1{
+            height: 180px;
+            width: 400px;
+            border: 1px solid black;
+            margin: auto;
+            background-color: blue;
+        }
+        .box2{
+            height: 180px;
+            width: 350px;
+            border: 1px solid black;
+            margin: auto;
+            background-color: chocolate;
+        }
+        .box3{
+            height: 180px;
+            width: 300px;
+            border: 1px solid black;
+            margin: auto;
+            background-color: crimson;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 98%;
+            margin: 5px auto;
+            background-color: burlywood;
+        }
+        .col-50{
+            width: 50%;
+        }
+        .col-33{
+            width: 33%;
+        }
+        .col-25{
+            width: 25%;
+        }
+
+        /* Media Query */
+        
+    </style>
+
+    <!-- CSS End Here -->
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-50">
+                <div class="box1"></div>
+            </div>
+            <div class="col-50">
+                <div class="box1"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-33">
+                <div class="box2"></div>
+            </div>
+            <div class="col-33">
+                <div class="box2"></div>
+            </div>
+            <div class="col-33">
+                <div class="box2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <div class="box3"></div>
+            </div>
+            <div class="col-25">
+                <div class="box3"></div>
+            </div>
+            <div class="col-25">
+                <div class="box3"></div>
+            </div>
+            <div class="col-25">
+                <div class="box3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

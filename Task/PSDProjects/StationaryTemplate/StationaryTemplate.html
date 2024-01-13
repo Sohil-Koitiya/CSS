@@ -5,416 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stationary Template</title>
 
-    <!-- Font Awesome CDN Link is Start Here -->
+   <link rel="stylesheet" href="../../PSDProjects/StationaryTemplate/style.css">
+
+   <!-- Font Awesome CDN Link is Start Here -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Font Awesome CDN Link is Start Here -->
-
-    <!-- Internal CSS Start Here -->
-
-    <style>
-        @import url("https://fonts.google.com/specimen/Open+Sans?query=Open+Sans");
-        
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .container{
-            border: 1px solid rgba(247, 234, 234, 0);
-            height: 500px;
-            width: 95%;
-            margin: 20px;
-            background-color: #ffffff;
-            font-family: sans-serif;
-        }
-        .navbar{
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        nav{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .col-50{
-            width: 50%;
-        }
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            list-style: none;
-        }
-        li{
-            margin: 0px 60px;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-        }
-        h2{
-            font-size: 92px;
-            font-family: sans-serif;
-            color: #000000;
-            font-weight: 700;
-            padding: 50px 0px;
-        }
-        p{
-            font-size: 21px;
-            color: #000000;
-            width: 526px;
-            height: 130px;
-            font-size: 21px;
-        }
-        button{
-            font-size: 21px;
-            color: #000000;
-            font-weight: 700;
-            text-align: center;
-            width: 174px;
-            height: 54px;
-            background-color: #f2cd5d;
-            border: 3px solid #000000;
-        }
-        .text-1{
-            height: 500px;
-            /* border: 1px solid black; */
-            margin-left: 150px;
-        }
-        .text-2{
-            background-size: cover;
-            height: 500px;
-            /* border: 1px solid black; */
-        }
-        img{
-            width: 100%;
-        }
-        .headertext{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .card{
-            width: 100%;
-            height: 477px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 25px;
-            color: #000000;
-            font-weight: 700;
-            font-family: sans-serif;
-            text-align: center;
-        }
-        .cardimage{
-            height: 180px;
-            width: 150px;
-        }
-        .body-2{
-            display: flex;
-        }
-        .body2image{
-            height: 670px;
-            width: 500px;
-            margin-left: 50px;
-        }
-        /* .body2text{
-            height: 700px;
-            width: 500px;
-        } */
-        .para{
-            margin-top: 60px;
-            text-decoration: underline;
-        }
-        .cardpara{
-            font-size: 21px;
-            width: 400px;
-            height: 130px;
-        }
-        .body-3{
-            margin: 100px 0px;
-        }
-        .body3text{
-            text-align: center;
-        }
-        .body3para{
-            font-size: 21px;
-            color: #000000;
-            width: 100%;
-            margin-top: 10px;
-        }
-        .menu{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 250px;
-            gap: 10px;
-        }
-        .menucard1{
-            /* height: 250px;
-            width: 450px; */
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            background-color: #ffffff;
-            width: 1445px;
-            height: 300px;
-        }
-        .menuimage{
-            height: 250px;
-            width: 200px;
-        }
-        .menubutton{
-            height: 30px;
-            width: 120px;
-            font-size: 14px;
-            color: #000000;
-            font-weight: 700;
-            text-align: center;
-        }
-        .menuheading{
-            font-size: 33px;
-            color: #010101;
-            margin-bottom: 20px;
-        }
-        .menuparagraph{
-            width: 215px;
-            height: 93px;
-            font-size: 12px;
-            color: #000000;
-        }
-        .menutext{
-            margin: auto;
-        }
-        .body-4{
-            height: 620px;
-            width: 100%;
-            margin-top: 25px;
-        }
-        .store{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 130px;
-        }
-        .storecard1{
-            width: 300px;
-            height: 430px;
-            filter: drop-shadow(11.437px 17.612px 12px rgba(12,13,12,0.1));
-            background-color: #ffffff;
-            position: relative;
-        }
-        .storeimage{
-            height: 300px;
-            width: 300px;
-        }
-        .storeheading{
-            width: 138px;
-            height: 33px;
-            background-color: #eb7f4e;
-            border: 2px solid #000000;
-            font-size: 25px;
-            color: #010101;
-            margin-bottom: 20px;
-            margin-left: 80px;
-            text-align: center;
-        }
-        .storetext{
-            height: 145px;
-            text-align: center;
-            margin-top: -80px;
-            position: absolute;
-            z-index: 1;
-        }
-        .storeparagraph{
-            width: 300px;
-            height: 60px;
-            font-size: 12px;
-            color: #000000;
-        }
-        .body-5{
-            width: 90%;
-            display: flex;
-            margin: 25px 40px;
-        }
-        .companyheading{
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
-        .body5image{
-            background-size: cover;
-            height: 500px;
-            opacity: 0.631;
-            background-color: #565656;
-            filter: drop-shadow(11.437px 17.612px 12px rgba(12,13,12,0.1));
-        }
-        .socialmedia{
-            font-size: 22px;
-            height: 45px;
-            width: 220px;
-            display: flex;
-            gap: 50px;
-        }
-        .facebook{
-            background-color: rgba(97, 119, 216, 0.877);
-            width: 37px;
-            height: 38px;
-            text-align: center;
-            padding-top: 7px;
-            border-radius: 10px;
-        }
-        .instagram{
-            background-color: #c51def;
-            width: 37px;
-            height: 38px;
-            text-align: center;
-            padding-top: 7px;
-            border-radius: 10px;
-        }
-        .twitter{
-            text-align: center;
-            padding-top: 7px;
-            width: 37px;
-            height: 38px;
-            background-color: #00d2ff;
-            border-radius: 10px;
-        }
-        .body5image{
-            background-size: cover;
-            height: 500px;
-            width: 600px;
-        }
-        .input{
-            display: grid;
-            width: 60%;
-            gap: 30px;
-        }
-        .contactheading{
-            font-size: 22px;
-        }
-        .name{
-            height: 30px;
-            background-color: lightgray;
-        }
-        .gender{
-            height: 30px;
-            background-color: lightgray;
-        }
-        .message{
-            height: 100px;
-            background-color: lightgray;
-        }
-        .contactussection{
-            gap: 20px;
-        }
-        .contactheading{
-            margin-bottom: 50px;
-        }
-        .contactbutton{
-            margin-top: 50px;
-        }
-        .footer{
-            border: 1px solid black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 1320px;
-            height: 323px;
-            background-color: #eb7f4e;
-        }
-        .Footerheading{
-            font-size: 45px;
-            margin-right: 25px;
-        }
-        .yourcompany{
-            width: 201px;
-            height: 198px;
-            font-size: 25px;
-            color: grey;
-            font-weight: 700;
-        }
-        .sitemap{
-            width: 125px;
-            height: 198px;
-            font-size: 17px;
-            color: grey;
-            font-weight: 700;
-        }
-        .loremipsum{
-            width: 125px;
-            height: 198px;
-            font-size: 17px;
-            color: grey;
-            font-weight: 700;
-        }
-        .sitamet{
-            width: 125px;
-            height: 198px;
-            font-size: 17px;
-            color: grey;
-            font-weight: 700;
-            margin-right: 40px;
-        }
-        .sohil{
-            display: block;
-        }
-        .darkheading{
-            color: #000000;
-        }
-        .lastsocialmedia{
-            gap: 10px;
-            padding-left: 20px;
-        }
-        .lastheading{
-            font-size: 20px;
-            padding: 20px;
-        }
-        .lastparagraph{
-            padding: 20px;
-        }
-        
-
-    </style>
-
-    <!-- Internal CSS End Here -->
-
+<!-- Font Awesome CDN Link is Start Here -->
+   
 </head>
 <body>
     <div class="container">
         <header>
 
-            <div class="navbar">
+            <div class="row">
+                <div class="navbar">
                 <nav>
                     <div class="col-50">
-                        <ul>
+                        <ul class="row">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Menu</a></li>
                         </ul> 
                     </div>
-                    <div class="logo">
-                        <h3>BRU<br>NCH</h3>
-                    </div>
+                    <div class="logo"></div>
                     <div class="col-50">
-                        <ul>
+                        <ul class="row">
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
+                </div>
             </div>
 
-            <div class="headertext">
+            <div class="row">
                 <div class="col-50 text-1">
-                    <h2>Have a<br>Nice Meal</h2>
+                    <h1>Have a<br>Nice Meal</h1>
                     <p>Duis aute irure dolor in reprehenderit in voluptate <br>
                         velit esse cillum dolore eu fugait nulla pariature. <br>
                         Excepteur sint occaecat cupidatat non prodient, <br>
@@ -423,37 +53,35 @@
                     <button>Read More</button>
                 </div>
                 <div class="col-50">
-                    <img src="../StationaryTemplate/Place Your Image Here (Double Click to Edit).png" class="text-2" alt="">
+                    <img src="Images/Place Your Image Here (Double Click to Edit).png" class="text-2" alt="">
                 </div>
             </div>
         </header>
 
-        <div class="body-1">
-            <div class="card">
-                <div class="card1">
-                        <img src="../StationaryTemplate/Card 2 Image.png" class="cardimage" alt="">
-                        <h3>Duis aute</h3>
-                        <p class="cardpara">sint occaecat cupidatat non</p>
-                </div>
-                <div class="card2">
-                        <img src="../StationaryTemplate/Card 3 Image.png" class="cardimage" alt="">
-                        <h3>Duis aute</h3>
-                        <p class="cardpara">sint occaecat cupidatat non</p>
-                </div>
-                <div class="card3">
-                        <img src="../StationaryTemplate/Card 1 Image.png" class="cardimage" alt="">
-                        <h3>Duis aute</h3>
-                        <p class="cardpara">sint occaecat cupidatat non</p>
-                    
-                </div>
+        <div class="row">
+            <div class="col-33">
+                    <img src="Images/Card 2 Image.png" class="cardimage" alt="">
+                    <h3>Duis aute</h3>
+                    <p>sint occaecat cupidatat non</p>
+            </div>
+            <div class="col-33">
+                    <img src="Images/Card 3 Image.png" class="cardimage" alt="">
+                    <h3>Duis aute</h3>
+                    <p>sint occaecat cupidatat non</p>
+            </div>
+            <div class="col-33">
+                    <img src="Images/Card 1 Image.png" class="cardimage" alt="">
+                    <h3>Duis aute</h3>
+                    <p>sint occaecat cupidatat non</p>
+                
             </div>
         </div>
 
-        <div class="body-2">
-            <div class="col-50">
-                <img src="../StationaryTemplate/Card 2 A Image.png" class="body2image" alt="">
+        <div class="row">
+            <div class="col-40">
+                <img src="Images/Card 2 A Image.png" alt="">
             </div>
-            <div class="col-50 body2text">
+            <div class="col-60 text-1">
                 <h2>Best Meal<br>Brunch in NYC</h2>
                 <p>Neque laoreet suspendisse interdum consectetur libero <br>
                     id faucibus nisl tincidunt. Dictum fusce ut platerat orci <br>
@@ -470,18 +98,18 @@
         <div class="body-3">
 
             <div class="body3text">
-                <h1>Menu</h1>
-                <p class="body3para">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
+                <h4>Menu</h4>
+                <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
                     fusce ut placerat orci nulla pellentesque dignissim enim sit.
                 </p>
             </div>
-            <div class="menu">
+            <div class="menu row">
 
-                <div class="menucard1">
+                <div class="row col-33">
                     <div class="col-50">
-                        <img src="../StationaryTemplate/menucardimage1.png" class="menuimage" alt="">
+                        <img src="Images/menucardimage1.png" class="menuimage" alt="">
                     </div>
-                    <div class="col-50 menutext">
+                    <div class="col-50">
                         <h3 class="menuheading">Americano</h3>
                         <p class="menuparagraph">volutpat lacus laoreet non<br>
                             curabitur. Ullamcorper dignissim<br>
@@ -493,11 +121,11 @@
                     </div>
                 </div>
 
-                <div class="menucard1">
+                <div class="row col-33">
                     <div class="col-50">
-                        <img src="../StationaryTemplate/menucardimage2.png" class="menuimage" alt="">
+                        <img src="Images/menucardimage2.png" class="menuimage" alt="">
                     </div>
-                    <div class="col-50 menutext">
+                    <div class="col-50">
                         <h3 class="menuheading">Long Black</h3>
                         <p class="menuparagraph">volutpat lacus laoreet non<br>
                             curabitur. Ullamcorper dignissim<br>
@@ -509,11 +137,11 @@
                     </div>
                 </div>
 
-                <div class="menucard1">
+                <div class="row col-33">
                     <div class="col-50">
-                        <img src="../StationaryTemplate/menucardimage3.png" class="menuimage" alt="">
+                        <img src="Images/menucardimage3.png" class="menuimage" alt="">
                     </div>
-                    <div class="col-50 menutext">
+                    <div class="col-50">
                         <h3 class="menuheading">Cappuccino</h3>
                         <p class="menuparagraph">volutpat lacus laoreet non<br>
                             curabitur. Ullamcorper dignissim<br>
@@ -534,64 +162,70 @@
         <div class="body-4">
 
             <div class="body3text">
-                <h1>Store</h1>
-                <p class="body3para">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
+                <h2>Store</h2>
+                <p>
+                    Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>
                     fusce ut placerat orci nulla pellentesque dignissim enim sit.
                 </p>
             </div>
 
-            <div class="store">
+            <div class="store row">
 
-                <div class="storecard1">
+                <div class="col-33">
+                    <div class="storecard">
+                        <div>
+                            <img src="Images/Store1.png"  class="storeimage" alt="">
+                        </div>
 
-                    <div class="storeimage">
-                        <img src="../StationaryTemplate/Store1.png" alt="">
-                    </div>
-
-                    <div class="storetext">
-                        <h3 class="storeheading">Corpertum</h3>
-                        <p class="storeparagraph">
-                            A lacus vestibulum sed. Amet purus<br>
-                            gravida quis blandit turpis. Enim<br>
-                            facilisis gravida neque convallis. 
-                        </p>
-                        <button class="menubutton">Visit Now</button>
-                    </div>
-
-                </div>
-
-                <div class="storecard1">
-
-                    <div class="storeimage">
-                        <img src="../StationaryTemplate/Store2.png" alt="">
-                    </div>
-
-                    <div class="storetext">
-                        <h3 class="storeheading">vestibulum</h3>
-                        <p class="storeparagraph">
-                            A lacus vestibulum sed. Amet purus<br>
-                            gravida quis blandit turpis. Enim<br>
-                            facilisis gravida neque convallis. 
-                        </p>
-                        <button class="menubutton">Visit Now</button>
+                        <div class="storetext">
+                            <h3 class="storeheading">Corpertum</h3>
+                            <p class="storeparagraph">
+                                A lacus vestibulum sed. Amet purus<br>
+                                gravida quis blandit turpis. Enim<br>
+                                facilisis gravida neque convallis. 
+                            </p>
+                            <button class="menubutton">Visit Now</button>
+                        </div>
                     </div>
 
                 </div>
 
-                <div class="storecard1">
+                <div class="col-33">
 
-                    <div class="storeimage">
-                        <img src="../StationaryTemplate/Store3.png" alt="">
+                    <div class="storecard">
+                        <div class="storeimage">
+                            <img src="Images/Store2.png" alt="">
+                        </div>
+
+                        <div class="storetext">
+                            <h3 class="storeheading">vestibulum</h3>
+                            <p class="storeparagraph">
+                                A lacus vestibulum sed. Amet purus<br>
+                                gravida quis blandit turpis. Enim<br>
+                                facilisis gravida neque convallis. 
+                            </p>
+                            <button class="menubutton">Visit Now</button>
+                        </div>
                     </div>
 
-                    <div class="storetext">
-                        <h3 class="storeheading">convallis</h3>
-                        <p class="storeparagraph">
-                            A lacus vestibulum sed. Amet purus<br>
-                            gravida quis blandit turpis. Enim<br>
-                            facilisis gravida neque convallis. 
-                        </p>
-                        <button class="menubutton">Visit Now</button>
+                </div>
+
+                <div class="col-33">
+
+                    <div class="storecard">
+                        <div class="storeimage">
+                            <img src="Images/Store3.png" alt="">
+                        </div>
+
+                        <div class="storetext">
+                            <h3 class="storeheading">convallis</h3>
+                            <p class="storeparagraph">
+                                A lacus vestibulum sed. Amet purus<br>
+                                gravida quis blandit turpis. Enim<br>
+                                facilisis gravida neque convallis. 
+                            </p>
+                            <button class="menubutton">Visit Now</button>
+                        </div>
                     </div>
 
                 </div>
@@ -600,8 +234,8 @@
         </div>
         
         <div class="body-5">
-            <div class="col-50 body5image">
-                <img src="../StationaryTemplate/Company Profile image.png" class="body5image" alt="">
+            <div class="col-50">
+                <img src="Images/Company Profile image.png" alt="">
             </div>
             <div class="col-50 text-1">
                 <h3 class="companyheading">Company Profile</h3>
@@ -618,9 +252,9 @@
             </div>
         </div>
 
-        <div class="headertext contactussection">
+        <div class="contactussection row">
             <div class="col-50">
-                <img src="../StationaryTemplate/Contact Us image.png" class="text-2" alt="">
+                <img src="Images/Map image.png" class="text-2" alt="">
             </div>
             <div class="col-50 contactus">
                 <h3 class="contactheading">Contact Us</h3>
@@ -635,13 +269,11 @@
 
         <footer>
 
-            <div class="footer">
+            <div class="footer row">
 
-                <div class="logo Footerheading">
-                    <h3>BRU<br>NCH</h3>
-                </div>
+                <div class="logo "></div>
                 <div class="yourcompany">
-                    <h4 class="darkheading">Your Company</h4>
+                    <h5>Your Company</h5>
                     <p>
                         Halimun Street 25 <br>
                         Jakarta, Indonesia <br>
@@ -651,7 +283,7 @@
                 </div>
                 <div class="sitemap">
                     <ul class="sohil">
-                        <li class="darkheading">Sitemap</li>
+                        <li class="footerheading">Sitemap</li>
                         <li>Home</li>
                         <li>About</li>
                         <li>Menu</li>
@@ -661,7 +293,7 @@
                 </div>
                 <div class="loremipsum">
                     <ul class="sohil">
-                        <li class="darkheading">Lorem Ipsum</li>
+                        <li class="footerheading">Lorem Ipsum</li>
                         <li>Neque</li>
                         <li>Suspendisse</li>
                         <li>Dictum</li>
@@ -672,7 +304,7 @@
                 </div>
                 <div class="sitamet">
                     <ul class="sohil">
-                        <li class="darkheading">Sit Amet</li>
+                        <li class="footerheading">Sit Amet</li>
                         <li>Neque</li>
                         <li>Suspendisse</li>
                         <li>Dictum</li>
@@ -682,9 +314,7 @@
                     </ul>
                 </div>
                 <div class="footerlast">
-                    <div class="logo">
-                        <h3 class="lastheading">BRU<br>NCH</h3>
-                    </div>
+                    <div class="logo"></div>
                     <p class="lastparagraph">
                         Copyright &#169 2020 Freepik <br>
                         Company S.L.All rights reserved.
