@@ -227,11 +227,11 @@ h4+p{
     border-radius: 10px;
 }
 .contactussection{
-    width: 98%;
+    width: 100%;
     gap: 40px;
-    margin: -80px;
 }
 .contactheading{
+    text-transform: capitalize;
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -354,15 +354,147 @@ h5+p{
     right: 25px;
     position: absolute;
 }
-.bestmealshapes{
-    height: 10px;
-    width: 10px;
+.bestmeal{
+    position: relative;
 }
-.storeshapes{
-    height: 10px;
-    width: 10px;
+.bestmealshapes1{
+    height: 240px;
+    width: 150px;
+    top: -10px;
+    right: 450px;
+    position: absolute;
 }
-.contactusshapes{
-    height: 10px;
-    width: 10px;
+.bestmealshapes2{
+    height: 250px;
+    width: 200px;
+    top: 0px;
+    right: 180px;
+    position: absolute;
+}
+.bestmealshapes3{
+    height: 80px;
+    width: 80px;
+    top: 100px;
+    right: 120px;
+    position: absolute;
+}
+.bestmealshapes4{
+    height: 200px;
+    width: 200px;
+    bottom: -10px;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.bestmealshapes5{
+    height: 60px;
+    width: 60px;
+    bottom: 100px;
+    right: 50px;
+    position: absolute;
+}
+.bestmealshapes6{
+    height: 50px;
+    width: 50px;
+    bottom: 100px;
+    right: 500px;
+    position: absolute;
+}
+.storewraper{
+    position: relative;
+}
+.storeshapes1{
+    height: 200px;
+    width: 200px;
+    top: -1px;
+    left: -1px;
+    position: absolute;
+}
+.storeshapes2{
+    height: 180px;
+    width: 180px;
+    top: -2px;
+    left: -2px;
+    position: absolute;
+}
+.storeshapes3{
+    height: 80px;
+    width: 80px;
+    bottom: 120px;
+    left: 10px;
+    position: absolute;
+}
+.storeshapes4{
+    height: 150px;
+    width: 150px;
+    top: 0px;
+    left: 650px;
+    position: absolute;
+}
+.storeshapes5{
+    height: 60px;
+    width: 60px;
+    top: 120px;
+    right: 10px;
+    position: absolute;
+}
+.storeshapes6{
+    height: 250px;
+    width: 160px;
+    bottom: 110px;
+    right: 0px;
+    position: absolute;
+}
+.storeshapes7{
+    height: 60px;
+    width: 60px;
+    bottom: -10px;
+    left: 700px;
+    position: absolute;
+}
+.contactuswraper{
+    position: relative;
+}
+.contactusshapes1{
+    height: 60px;
+    width: 50px;
+    top: 20px;
+    right: 620px;
+    position: absolute;
+}
+.contactusshapes2{
+    height: 150px;
+    width: 150px;
+    top: -10px;
+    right: 0px;
+    z-index: 1;
+    position: absolute;
+}
+.contactusshapes3{
+    height: 50px;
+    width: 50px;
+    top: 55px;
+    right: 50px;
+    position: absolute;
+}
+.contactusshapes4{
+    height: 50px;
+    width: 50px;
+    bottom: 90px;
+    right: 40px;
+    position: absolute;
+}
+.contactusshapes5{
+    height: 130px;
+    width: 130px;
+    bottom: 10px;
+    right: 150px;
+    position: absolute;
+}
+.contactusshapes6{
+    height: 180px;
+    width: 180px;
+    bottom: -20px;
+    right: 560px;
+    position: absolute;
 }
