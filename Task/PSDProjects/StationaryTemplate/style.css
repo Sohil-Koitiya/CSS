@@ -498,3 +498,31 @@ h5+p{
     right: 560px;
     position: absolute;
 }
+
+@media (max-width: 575.98px) {
+    li{
+        margin: 0px 3px;
+    }    
+    h1{
+        font-size: 40px;
+    }
+    h1+p{
+        width: 200px;
+        height: 280px;
+    }
+    .col-50{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-33{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
