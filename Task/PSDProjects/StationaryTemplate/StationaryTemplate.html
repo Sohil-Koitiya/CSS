@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stationary Template</title>
 
-   <link rel="stylesheet" href="../../PSDProjects/StationaryTemplate/style.css">
+   <link rel="stylesheet" href="../StationaryTemplate/style.css">
+   <link rel="stylesheet" href="../StationaryTemplate/mobilestyle.css">
 
    <!-- Font Awesome CDN Link is Start Here -->
 
@@ -13,7 +14,7 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<!-- Font Awesome CDN Link is Start Here -->
+    <!-- Font Awesome CDN Link is Start Here -->
    
 </head>
 <body>
@@ -27,7 +28,7 @@
             <img src="Images/Meal Shapes/Shape (4).png" class="Nicemealshapes5" alt="">
             <header>
 
-                <div class="row">
+                <div class="navbarrow row">
                     <div class="navbar">
                     <nav>
                         <div class="col-50">
@@ -49,55 +50,57 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row nicemealrow">
                     <div class="col-50 text-1">
-                        <h1>Have a<br>Nice Meal</h1>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate <br>
-                            velit esse cillum dolore eu fugait nulla pariature. <br>
-                            Excepteur sint occaecat cupidatat non prodient, <br>
-                            officia deserunt mollit anim id est laborum. 
-                        </p>
-                        <button>Read More</button>
+                        <div class="nicemealtext">
+                            <h1>Have a<br>Nice Meal</h1>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate <br>
+                                velit esse cillum dolore eu fugait nulla pariature. <br>
+                                Excepteur sint occaecat cupidatat non prodient, <br>
+                                officia deserunt mollit anim id est laborum. 
+                            </p>
+                            <button>Read More</button>
+                        </div>
                     </div>
-                    <div class="col-50">
-                        <img src="Images/Place Your Image Here (Double Click to Edit).png" class="text-2" alt="">
+                    <div class="col-50 nicemealimage">
+                        <img src="Images/Place Your Image Here (Double Click to Edit).png" alt="">
                     </div>
                 </div>
             </header>
         </div>
 
-        <div class="row">
-            <div class="col-33">
-                <div class="card">
-                    <img src="Images/Card 2 Image.png" class="cardimage" alt="">
-                    <h3>Duis aute</h3>
-                    <p>sint occaecat cupidatat non</p>
+        <div class="cardsrow">
+                <div class="col-33">
+                    <div class="card">
+                        <img src="Images/Card 2 Image.png" class="cardimage" alt="">
+                        <h3>Duis aute</h3>
+                        <p>sint occaecat cupidatat non</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-33">
-                <div class="card">
-                    <img src="Images/Card 3 Image.png" class="cardimage" alt="">
-                    <h3>Duis aute</h3>
-                    <p>sint occaecat cupidatat non</p>
+                <div class="col-33">
+                    <div class="card">
+                        <img src="Images/Card 3 Image.png" class="cardimage" alt="">
+                        <h3>Duis aute</h3>
+                        <p>sint occaecat cupidatat non</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-33">
-                <div class="card">
-                    <img src="Images/Card 1 Image.png" class="cardimage" alt="">
-                    <h3>Duis aute</h3>
-                    <p>sint occaecat cupidatat non</p>
+                <div class="col-33">
+                    <div class="card">
+                        <img src="Images/Card 1 Image.png" class="cardimage" alt="">
+                        <h3>Duis aute</h3>
+                        <p>sint occaecat cupidatat non</p>
+                    </div>
                 </div>
-            </div>
         </div>
 
-        <div class="bestmeal">
+        <div class="bestmealwraper">
             <img src="Images/Best Meal Shapes/Shape.png" class="bestmealshapes1" alt="">
             <img src="Images/Best Meal Shapes/Shape (1).png" class="bestmealshapes2" alt="">
             <img src="Images/Best Meal Shapes/Shape (2).png" class="bestmealshapes3" alt="">
             <img src="Images/Best Meal Shapes/Shape (3).png" class="bestmealshapes4" alt="">
             <img src="Images/Best Meal Shapes/Shape (4).png" class="bestmealshapes5" alt="">
             <img src="Images/Best Meal Shapes/Shape (5).png" class="bestmealshapes6" alt="">           
-            <div class="row">
+            <div class="bestmealrow">
                 <div class="col-40">
                     <img src="Images/Card 2 A Image.png" class="bestmealimage" alt="">  
                 </div>
@@ -130,19 +133,21 @@
             <div class="menu row">
 
                 <div class="col-33">
-                    <div class="menucard row">
+                    <div class="menucard">
                         <div class="col-50">
                             <img src="Images/menucardimage1.png" class="menuimage" alt="">
                         </div>
                         <div class="col-50">
-                            <h3 class="menuheading">Americano</h3>
-                            <p class="menuparagraph">volutpat lacus laoreet non<br>
-                                curabitur. Ullamcorper dignissim<br>
-                                cras tincidunt lobortis feugiat<br>
-                                vivamus at augue eget. Suscipit<br>
-                                adipiscing bibendum est ultricies 
-                            </p>
-                            <button class="menubutton">Order Now</button>
+                            <div class="menucardtext">
+                                <h3 class="menuheading">Americano</h3>
+                                <p class="menuparagraph">volutpat lacus laoreet non<br>
+                                    curabitur. Ullamcorper dignissim<br>
+                                    cras tincidunt lobortis feugiat<br>
+                                    vivamus at augue eget. Suscipit<br>
+                                    adipiscing bibendum est ultricies 
+                                </p>
+                                <button class="menubutton">Order Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,14 +158,16 @@
                             <img src="Images/menucardimage2.png" class="menuimage" alt="">
                         </div>
                         <div class="col-50">
-                            <h3 class="menuheading">Long Black</h3>
-                            <p class="menuparagraph">volutpat lacus laoreet non<br>
-                                curabitur. Ullamcorper dignissim<br>
-                                cras tincidunt lobortis feugiat<br>
-                                vivamus at augue eget. Suscipit<br>
-                                adipiscing bibendum est ultricies 
-                            </p>
-                            <button class="menubutton">Order Now</button>
+                            <div class="menucardtext">
+                                <h3 class="menuheading">Long Black</h3>
+                                <p class="menuparagraph">volutpat lacus laoreet non<br>
+                                    curabitur. Ullamcorper dignissim<br>
+                                    cras tincidunt lobortis feugiat<br>
+                                    vivamus at augue eget. Suscipit<br>
+                                    adipiscing bibendum est ultricies 
+                                </p>
+                                <button class="menubutton">Order Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -171,14 +178,16 @@
                             <img src="Images/menucardimage3.png" class="menuimage" alt="">
                         </div>
                         <div class="col-50">
-                            <h3 class="menuheading">Cappuccino</h3>
-                            <p class="menuparagraph">volutpat lacus laoreet non<br>
-                                curabitur. Ullamcorper dignissim<br>
-                                cras tincidunt lobortis feugiat<br>
-                                vivamus at augue eget. Suscipit<br>
-                                adipiscing bibendum est ultricies 
-                            </p>
-                            <button class="menubutton">Order Now</button>
+                            <div class="menucardtext">
+                                <h3 class="menuheading">Cappuccino</h3>
+                                <p class="menuparagraph">volutpat lacus laoreet non<br>
+                                    curabitur. Ullamcorper dignissim<br>
+                                    cras tincidunt lobortis feugiat<br>
+                                    vivamus at augue eget. Suscipit<br>
+                                    adipiscing bibendum est ultricies 
+                                </p>
+                                <button class="menubutton">Order Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +210,7 @@
                 <img src="Images/Store Shapes/Shape (5).png" class="storeshapes6" alt="">
                 <img src="Images/Store Shapes/Shape (6).png" class="storeshapes7" alt="">
                 
-                <div class="body3text">
+                <div class="storemaintext">
                     <h2>Store</h2>
                     <p>
                         Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum <br>

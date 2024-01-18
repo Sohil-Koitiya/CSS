@@ -1,0 +1,100 @@
+@media (max-width: 575.98px) {
+    li{
+        margin: 0px 2px;
+    }    
+    h1{
+        font-size: 40px;
+    }
+    h1+p{
+        width: 200px;
+        height: 280px;
+    }
+    .nicemealrow{
+        flex-direction: column-reverse;
+    }
+    .cardsrow{
+        display: block;
+    }
+    .col-50{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-33{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-40{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .col-60{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .bestmealrow{
+        display: block;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .h2+p{
+        font-size: 10px;
+    }
+    .body3text{
+        margin-bottom: 80px;
+    }
+    .menu{
+        display: block;
+    }
+    .store{
+        display: block;
+    }
+    .body-4{
+        height: 1380px;
+    }
+    .body-5{
+        display: block;
+    }
+    .contactussection{
+        display: block;
+    }
+    .footer{
+        display: block;
+        height: 1000px;
+        margin-top: 10px;
+    }
+    .footerlogo{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .yourcompany{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .sitemap{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .loremipsum{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .sitamet{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .footerlast{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    
+
+}
