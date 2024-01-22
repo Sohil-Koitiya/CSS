@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) {
+
+    /* .row{
+        display: block;
+    } */
+    .col-50{
+        width: 100%;
+    }
+    .logo{
+        height: 20px;
+        width: 80px;
+    }
+    
+
+}
