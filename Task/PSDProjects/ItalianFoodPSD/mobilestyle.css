@@ -1,14 +1,77 @@
 @media (max-width: 575.98px) {
 
-    /* .row{
-        display: block;
-    } */
+    .body1{
+        height: 1050px;
+    }
     .col-50{
         width: 100%;
     }
     .logo{
         height: 20px;
         width: 80px;
+    }
+    .row{
+        display: block;
+    }
+    .mininavbar{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 500px;
+        border: 2px solid black;
+    }
+    .headerimage{
+        margin-left: -130px;
+        margin-top: 100px;
+        width: 500px;
+    }
+    .maintext{
+        height: 250px;
+    }
+    .col-33{
+        width: 100%;
+        margin-left: -50px;
+    }
+    .chooseandenjoysection{
+        height: 1000px;
+    }
+    .cardstructur{
+        display: block;
+    }
+    .card{
+        height: 400px;
+    }
+    .maintext{
+        width: 80%;
+    }
+    .body3{
+        margin-top: 900px;
+    }
+    .body3cardrow{
+        margin-top: 0px;
+        display: block;
+    }
+    .body3image2{
+        width: 100%;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        position: static;
+        filter: none;
+    }
+    .body4imagesection{
+        display: block;
+    }
+    .footersection{
+        height: 520px;
+    }
+    .footermaintext{
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .footerlasttext{
+        margin: 0px;
+        margin-left: 20px;
     }
     
 

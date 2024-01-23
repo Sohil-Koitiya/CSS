@@ -56,7 +56,14 @@ img{
 }
 .mininavbar{
     display: flex;
+    align-items: end;
+    justify-content: end;
     height: 30px;
+}
+.navbarmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ul{
     list-style: none;
@@ -144,6 +151,11 @@ h1{
     font-family: "Fredericka the Great";
     margin-bottom: 10px;
 }
+.cardstructur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cardbackgroundractangle{
     z-index: 0;
     position: absolute;
@@ -201,6 +213,9 @@ h3+p{
     margin-top: 50px;
     margin-bottom: 20px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h5{
     font-size: 40px;
@@ -241,6 +256,9 @@ h5+p{
 .body4imagesection{
     margin-top: 100px;
     gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .body4image1{
     margin-bottom: 20px;
@@ -261,18 +279,27 @@ h6+p{
     font-family: "Fredericka the Great";
 }
 .sohil{
-    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 10px;
+}
+.inputdata1{
+    height: 200px;
+    margin-left: 50px;
+    text-align: end;
+}
+.inputdata2{
+    height: 200px;
 }
 .priti{
     height: 50px;
     width: 50%;
-    margin-left: 330px;
     margin-bottom: 10px;
 }
 .ayan{
     height: 50px;
     width: 50%;
-    margin-right: 330px;
     margin-bottom: 10px;
 }
 .pritibutton{
@@ -280,13 +307,12 @@ h6+p{
     width: 50%;
     background-color: #ffe001;
     margin-top: -1px;
-    margin-right: 330px;
 }
 .footerlogo{
     height: 50px;
     width: 150px;
     background-color: aliceblue;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .footersection{
     background: url(../ItalianFoodPSD/Images/BG\ Image.png);
@@ -294,21 +320,28 @@ h6+p{
     height: 340px;
 }
 .footermaintext{
+    height: 300px;
+    width: 500px;
     font-size: 17px;
-    margin: 0px 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
 }
 .mainpara1{
     color: aliceblue;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .mainpara2{
     color: aliceblue;
 }
 .mainpara3{
+    height: 30px;
+    width: 330px;
     color: aliceblue;
     margin-bottom: 20px;
 }
 .mainpara4{
+    height: 30px;
+    width: 240px;
     color: aliceblue;
     margin-bottom: 20px;
 }
@@ -325,5 +358,5 @@ h6+p{
 }
 .socialmedia{
     margin-left: 250px;
-    margin-top: 120px;
+    margin-top: 60px;
 }
