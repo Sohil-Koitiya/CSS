@@ -128,10 +128,12 @@ button{
 }
 .body2{
     height: 560px;
+    margin-bottom: 50px;
 }
 .maintext{
     text-align: center;
     height: 120px;
+    width: 100%;
     margin-top: 20px;
 }
 .chooseandenjoysection{
@@ -165,29 +167,19 @@ h1{
     top: px;
 }
 .card1image{
-    background: url(../ItalianFoodPSD/Images/Pasta.png);
-    background-size: cover;
-    height: 260px;
-    width: 270px;
-    margin-left: 25px;
+    height: 300px;
+    width: 100%;
 }
 .card2image{
-    background: url(../ItalianFoodPSD/Images/Bread.png);
-    background-size: cover;
-    height: 260px;
-    width: 270px;
-    margin-left: 25px;
+    height: 300px;
+    width: 100%;
 }
 .card3image{
-    background: url(../ItalianFoodPSD/Images/salad.png);
-    background-size: cover;
-    height: 260px;
-    width: 270px;
-    margin-left: 25px;
+    height: 300px;
+    width: 100%;
 }
 .cardtext{
     height: 160px;
-    width: 300px;
     text-align: center;
 }
 h3{
@@ -205,6 +197,9 @@ h3+p{
 .col-33{
     width: 33%;
 }
+.body3{
+    height: 500px;
+}
 .body3maintext{
     text-align: center;
     margin-bottom: 20px;
@@ -212,7 +207,6 @@ h3+p{
 .body3cardrow{
     margin-top: 50px;
     margin-bottom: 20px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,35 +220,24 @@ h5+p{
     font-size: 16px;
 }
 .body3image1{
-    background: url(../ItalianFoodPSD/Images/Image\ \(1\).png);
-    background-size: cover;
-    height: 400px;
+    height: 300px;
     width: 100%;
-    z-index: 0;
 }
 .body3image2{
-    background: url(../ItalianFoodPSD/Images/Image\ \(3\).png);
-    background-size: cover;
-    height: 550px;
-    width: 45%;
-    z-index: 1;
-    top: -60px;
-    left: 380px;
-    position: absolute;
+    height: 300px;
+    width: 100%;
     filter: drop-shadow(9.5px 16.454px 27px rgba(12,13,12,0.67));
 }
 .body3image3{
-    background: url(../ItalianFoodPSD/Images/Image\ \(2\).png);
-    background-size: cover;
-    height: 400px;
+    height: 300px;
     width: 100%;
-    z-index: 0;
 }
 .body4{
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 .body4imagesection{
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 10px;
     display: flex;
     align-items: center;
@@ -286,7 +269,6 @@ h6+p{
 }
 .inputdata1{
     height: 200px;
-    margin-left: 50px;
     text-align: end;
 }
 .inputdata2{
