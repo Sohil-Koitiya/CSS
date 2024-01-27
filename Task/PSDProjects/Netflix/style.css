@@ -38,7 +38,7 @@ img{
     height: 60px;
 }
 .rightside{
-    margin-left: 280px;
+    margin-left: 160px;
 }
 #netflixlogolanguage{
     height: 30px;
@@ -81,10 +81,6 @@ h1+p+p{
     font-size: 25px;
     margin-bottom: 20px;
 }
-/* .startsection{
-    border: 2px solid crimson;
-    height: 50px;
-} */
 .startsection>input{
     height: 50px;
     width: 300px;
@@ -110,6 +106,7 @@ h1+p+p{
     height: 500px;
     width: 100%;
     background-color: black;
+    position: relative;
 }
 .textsectionofbody2{
     background-color: black;
@@ -136,8 +133,17 @@ h2+p{
     background-size: cover;
     height: 400px;
     width: 550px;
-    /* border: 2px solid green; */
     margin: 50px 50px;
+    z-index: 2;
+    position: relative;
+}
+.backgroundvideo1{
+    height: 320px;
+    width: 400px;
+    position: absolute;
+    top: 87px;
+    right: 152px;
+    z-index: 1; 
 }
 h3{
     font-size: 50px;
@@ -152,16 +158,10 @@ h3+p{
     height: 500px;
     position: relative;
 }
-.body3background{
-    
-    /* width: 100%; */
-    /* border: 1px solid dimgrey; */
-}
 .textsectionofbody3{
     background-color: black;
     height: 500px;
     color: aliceblue;
-    /* padding-left: 170px; */
     padding-top: 150px;
 }
 .body3backgroundimage{
@@ -169,7 +169,6 @@ h3+p{
     background-size: cover;
     height: 400px;
     width: 500px;
-    /* border: 2px solid green; */
     margin: 50px 50px;
 }
 .downloadingsection{
@@ -196,7 +195,6 @@ h6{
 }
 a{
     text-decoration: none;
-    /* font-weight: 600; */
     font-size: 15px;
 }
 .downloading-icon{
@@ -213,12 +211,11 @@ a{
     background-size: cover;
     height: 400px;
     width: 500px;
-    /* border: 2px solid green; */
     margin: 50px 50px;
     z-index: 1;
+    position: relative;
 }
 .textsectionofbody4{
-    /* border: 5px solid crimson; */
     background-color: black;
     height: 300px;
     color: aliceblue;
@@ -228,19 +225,17 @@ a{
     margin-left: 85px;
     margin-top: 150px;
 }
-.backgroundvideo{
+.backgroundvideo2{
     height: 230px;
     width: 330px;
     position: absolute;
     top: 70px;
     right: 200px;
-    z-index: 0;
-    
+    z-index: 0; 
 }
 .body5{
     background-color: black;
     height: 500px;
-    /* position: relative; */
 }
 .body5backgroundimage{
     background: url(../Netflix/Images/children.png);
@@ -265,7 +260,6 @@ h5+p{
 .body6{
     background-color: black;
     height: 800px;
-    /* position: relative; */
 }
 .body6textsection{
     padding-top: 10px;
@@ -329,33 +323,38 @@ h4{
 }
 footer{
     background-color: black;
-    height: 400px;
+    height: 350px;
     color: aliceblue;
     padding: 20px 20px;
 }
 footer>p{
-    text-align: center;
+    margin-left: 150px;
     font-size: 22px;
     margin-bottom: 20px;
 }
 footer>p>a{
-    font-size: 25px;
+    font-size: 20px;
     color: aliceblue;
 }
 .footerlistsection{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: center;
+    gap: 170px;
 }
 ul{
-    text-decoration: none;
+    text-decoration: underline;
+    list-style: none;
+}
+ul>li{
+    margin-bottom: 20px;
 }
 ul>li>a{
-    font-size: 20px;
+    font-size: 15px;
     color: aliceblue;
 }
 select{
-    margin-left: 20px;
+    margin-left: 145px;
     margin-top: 20px;
 }
 option{
@@ -363,6 +362,6 @@ option{
 }
 select+p{
     text-align: start;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 145px;
+    margin-top: 30px;
 }
