@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     width: 100%;
@@ -19,25 +20,34 @@ img{
     align-items: center;
     justify-content: center;
 }
-nav{
+#navbar{
     display: flex;
     align-items: center;
+    height: 80px;
+    width: 100%;
 }
 .col-50{
     width: 50%;
 }
+.leftside{
+    height: 50px;
+    width: 250px;
+    margin-left: 50px;
+}
 .netflixlogo{
-    height: 100px;
-    width: 300px;
+    height: 60px;
+}
+.rightside{
+    margin-left: 280px;
 }
 #netflixlogolanguage{
     height: 30px;
-    width: 100px;
+    width: 130px;
     font-size: 17px;
     font-weight: 600;
     background-color: transparent;
     color: aliceblue;
-    border: 1px solid antiquewhite;
+    border: 1px solid dimgray;
     border-radius: 2px;
 }
 .signinbutton{
@@ -49,14 +59,310 @@ nav{
     border: none;
     margin-left: 30px;
     color: aliceblue;
-    background-color: rgba(233, 21, 21, 0.795);
+    background: rgb(229,9,20);
 }
-.leftside{
+.textsection{
+    height: 500px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 180px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h1+p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+h1+p+p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* .startsection{
+    border: 2px solid crimson;
     height: 50px;
-    width: 250px;
-    margin-right: 250px;
+} */
+.startsection>input{
+    height: 50px;
+    width: 300px;
+    margin-right: 40px;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    background: rgba(22,22,22,0.7);
+    border-color: rgba(128,128,128,0.7);
+    padding-left: 20px;
+    font-size: 18px;
 }
-.rightside{
+.startsection>button{
+    height: 50px;
+    width: 200px;
+    background: rgb(229,9,20);
+    font-size: 18px;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid dimgray;
+}
+.body2{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.textsectionofbody2{
+    background-color: black;
+    height: 500px;
+    color: aliceblue;
+    padding-left: 170px;
+    padding-top: 150px;
+}
+hr{
+    height: 10px;
+    background-color: grey;
+    border: none;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h2+p{
+    font-size: 25px;
+}
+.body2backgroundimage{
+    background: url(../Netflix/Images/tv\ image.png);
+    background-size: cover;
+    height: 400px;
+    width: 550px;
+    /* border: 2px solid green; */
+    margin: 50px 50px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+h3+p{
+    font-size: 30px;
+}
+.body3{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+.body3background{
+    
+    /* width: 100%; */
+    /* border: 1px solid dimgrey; */
+}
+.textsectionofbody3{
+    background-color: black;
+    height: 500px;
+    color: aliceblue;
+    /* padding-left: 170px; */
+    padding-top: 150px;
+}
+.body3backgroundimage{
+    background: url(../Netflix/Images/mobile\ image.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid green; */
+    margin: 50px 50px;
+}
+.downloadingsection{
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 310px;
+    left: 170px;
+}
+.strangerthingsimage{
+    height: 70px;
+    width: 70px;
+}
+.downloading{
+    margin: 0px 18px;
+}
+h6{
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    /* font-weight: 600; */
+    font-size: 15px;
+}
+.downloading-icon{
+    height: 50px;
+    width: 50px;
+}
+.body4{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+.body4backgroundimage{
+    background: url(../Netflix/Images/computer-device-pile-in.png);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid green; */
+    margin: 50px 50px;
+    z-index: 1;
+}
+.textsectionofbody4{
+    /* border: 5px solid crimson; */
+    background-color: black;
+    height: 300px;
+    color: aliceblue;
+}
+.textsection4{
+    width: 580px;
+    margin-left: 85px;
+    margin-top: 150px;
+}
+.backgroundvideo{
+    height: 230px;
+    width: 330px;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    z-index: 0;
+    
+}
+.body5{
+    background-color: black;
+    height: 500px;
+    /* position: relative; */
+}
+.body5backgroundimage{
+    background: url(../Netflix/Images/children.png);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 150px;
+}
+.textsection5{
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+h5{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+h5+p{
+    font-size: 25px;
+}
+.body6{
+    background-color: black;
+    height: 800px;
+    /* position: relative; */
+}
+.body6textsection{
+    padding-top: 10px;
+}
+h4{
+    color: aliceblue;
+    font-size: 60px;
+    text-align: center;
+}
+.questionbox{
+    height: 70px;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: darkgrey;
+}
+.questionbox>p{
+    height: 40px;
+    width: 1000px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.plus1{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.plus2{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.plus3{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.plus4{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.plus5{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.plus6{
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.body6lastsection{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}
+.body6lastsection>p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: black;
+    height: 400px;
+    color: aliceblue;
+    padding: 20px 20px;
+}
+footer>p{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+footer>p>a{
+    font-size: 25px;
+    color: aliceblue;
+}
+.footerlistsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    text-decoration: none;
+}
+ul>li>a{
+    font-size: 20px;
+    color: aliceblue;
+}
+select{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+option{
+    background-color: black;
+}
+select+p{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 20px;
 }
