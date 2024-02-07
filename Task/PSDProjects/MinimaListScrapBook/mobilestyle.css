@@ -11,6 +11,24 @@
     .body1{
         height: 1000px;
     }
+    .navbarbuttons{
+        width: 450px;
+    }
+    button{
+        height: 60px;
+    }
+    .body2design1{
+        height: 50px;
+        width: 200px;
+        top: 0px;
+        left: 0px;
+    }
+    .body2design2{
+        height: 50px;
+        width: 200px;
+        bottom: 0px;
+        right: 0px;
+    }
     .body3{
         height: 1400px;
     }
@@ -41,6 +59,22 @@
     }
     .body8{
         height: 1150px;
+    }
+    .body8row{
+        margin-left: 40px;
+    }
+    .body8arrowleft{
+        top: 280px;
+        left: 0px;
+    }
+    .body8arrowright{
+        top: 850px;
+        right: 100px;
+    }
+    .body8design1{
+        height: 50px;
+        width: 200px;
+        top: -50px;
     }
     .body9{
         height: 1000px;

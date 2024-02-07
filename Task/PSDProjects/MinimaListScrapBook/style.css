@@ -30,6 +30,11 @@ nav{
     gap: 50px;
     padding-left: 50px;
 }
+.navrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .navline1{
     font-size: 21px;
     letter-spacing: -1px;
