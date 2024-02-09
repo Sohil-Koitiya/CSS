@@ -7,10 +7,7 @@
 .body1{
     width: 100%;
     height: 1200px;
-    border: 1px solid black;
     font-family: sans-serif;
-    /* background: linear-gradient(0deg, #F0EBFA, #F0EBFA),
-    linear-gradient(0deg, #FBFAFE, #FBFAFE); */
     border: 1px solid rgba(240, 235, 250, 1);
 }
 .row{
@@ -28,7 +25,7 @@
     width: 100px;
     height: 16px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: rgba(53, 65, 75, 1);
     margin-top: 20px;
 }
@@ -39,6 +36,7 @@
     background-color:  rgba(236, 229, 255, 1);
     border-color: rgb(31, 177, 235);
     margin-top: 20px;
+    font-weight: 600;
 }
 .buttons{
     margin-top: 100px;
@@ -96,14 +94,17 @@ input+button{
 .body1a{
     height: 150px;
 }
+.body1a>h3{
+    text-align: center;
+    margin-top: 20px;
+}
 .body1aimages{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .body2{
     height: 590px;
     width: 90%;
     margin: auto;
-    position: relative;
 }
 .col-60{
     width: 60%;
@@ -144,7 +145,21 @@ h3+p{
     color: rgba(246, 243, 252, 1);
     border: 1px solid rgba(246, 243, 252, 1);
     background-color: rgba(251, 250, 254, 1);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+.text1{
+    margin: 30px 30px;
+    height: 70px;
+    width: 330px;
+}
+.text1>h3{
+    font-size: 20px;
+    margin: 0px 20px;
+    color: rgba(78, 90, 101, 1);
+}
+.text1>p{
+    color: rgba(78, 90, 101, 1);
+    margin: 5px 20px;
 }
 .minicard>p{
     color: rgba(78, 90, 101, 1);
