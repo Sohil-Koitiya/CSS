@@ -87,7 +87,7 @@ input+button{
 .body1image{
     height: 400px;
     margin: auto;
-    width: 920px;
+    width: 100%;
     height: 650px;
     margin-top: 20px;
 }

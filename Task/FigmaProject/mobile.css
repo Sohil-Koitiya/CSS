@@ -1,0 +1,62 @@
+.body1{
+    height: 1400px;
+}
+.row{
+    display: block;
+}
+.body2{
+    height: 1200px;
+}
+.col-60{
+    width: 100%;
+}
+.col-40{
+    width: 100%;
+}
+.body3{
+    height: 1100px;
+}
+.body3row{
+    display: block;
+}
+.col-33{
+    width: 100%;
+    margin-top: 20px;
+}
+.body4{
+    height: 800px;
+}
+.col-50{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.body5{
+    height: 500px;
+}
+.body5line{
+    margin-left: 0px;
+}
+.media{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+footer{
+    height: 800px;
+}
+.footerrow{
+    height: 500px;
+}
+ul{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.footerlast{
+    margin-left: 40px;
+}
+.div{
+    margin-left: 40px;
+}
+.socialmedia{
+    margin-left: 0px;
+    margin-top: 20px;
+}
